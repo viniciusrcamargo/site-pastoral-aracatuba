@@ -1,6 +1,6 @@
-# 🌟 Site da Pastoral [Nome da Pastoral]
+# 🌟 Site da Pastoral da Sobriedade
 
-Este é o repositório oficial do site da Pastoral [Nome da Pastoral] da Igreja Católica.  
+Este é o repositório oficial do site da Pastoral da Sobriedade da Igreja Católica.  
 O projeto foi desenvolvido utilizando **React.js** com o objetivo de oferecer informações, notícias, eventos e recursos para a comunidade.
 
 ---
