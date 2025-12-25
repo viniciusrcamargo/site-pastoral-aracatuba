@@ -2,6 +2,21 @@
   text-align: center;
 }
 
+*{
+  background-color: rgb(0,43,99);
+}
+
+.link-menu{
+  color: white;
+  font-size: 20px;
+}
+
+.carousel-item img {
+  height: 600px;          /* mesma altura do container */
+  object-fit: cover;      /* adapta a imagem sem distorcer */
+  object-position: center;/* centraliza verticalmente */
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
