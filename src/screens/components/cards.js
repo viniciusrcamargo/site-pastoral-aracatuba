@@ -1,12 +1,12 @@
 export default function Cards() {
   return (
-    <div class="row">
+    <div className="row">
       <h2>Como podemos te ajudar</h2>
-      <div class="col-sm-4 mb-3 mb-sm-0">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Acolhimento e escuta fraterna</h5>
-            <p class="card-text">
+      <div className="col-sm-4 mb-3 mb-sm-0">
+        <div className="card">
+          <div className="card-body">
+            <h5 className="card-title">Acolhimento e escuta fraterna</h5>
+            <p className="card-text">
               - A Pastoral da Sobriedade oferece apoio espiritual e humano para
               pessoas em situação de dependência química e suas famílias. -
               Espaço seguro para partilha e fortalecimento da fé.
