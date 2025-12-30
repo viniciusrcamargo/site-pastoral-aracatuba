@@ -17,13 +17,13 @@ export default function Cards() {
           </div>
         </div>
       </div>
-      <div class="col-sm-4">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">
+      <div className="col-sm-4">
+        <div className="card">
+          <div className="card-body">
+            <h5 className="card-title">
               Grupos de autoajuda com reuniões semanais
             </h5>
-            <p class="card-text">
+            <p className="card-text">
               Encontros comunitários que promovem a sobriedade e a reintegração
               social.
             </p>
@@ -33,13 +33,13 @@ export default function Cards() {
           </div>
         </div>
       </div>
-      <div class="col-sm-4">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">
+      <div className="col-sm-4">
+        <div className="card">
+          <div className="card-body">
+            <h5 className="card-title">
               Orientação e encaminhamento
             </h5>
-            <p class="card-text">
+            <p className="card-text">
               Apoio na busca por tratamento e acompanhamento em centros especializados.
             </p>
             <p className="card-text">
