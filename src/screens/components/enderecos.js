@@ -1,6 +1,8 @@
 
 export default function Enderecos() {
     return (
-        <div></div>
+        <div>
+            <h2 className="mt-5 text-center">Nossos Endereços</h2>
+        </div>
     )
 }
