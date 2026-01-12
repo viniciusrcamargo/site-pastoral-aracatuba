@@ -2,37 +2,55 @@
   text-align: center;
 }
 
-*{
-  background-color: rgb(0,43,99);
+* {
+  background-color: rgb(0, 43, 99);
   color: white;
 
 }
 
-.link-menu{
+.link-menu {
   color: white;
   font-size: 20px;
 }
 
-.row h5{
+.row h5 {
   color: white;
 }
 
-.altCard{
+.altCard {
   height: 210px;
 }
 
 @media (max-width: 768px) {
-  .altCard{
+  .altCard {
     height: auto;
     margin-bottom: 15px;
   }
-  
+
 }
 
+/* Deixar o ícone do botão hamburger branco */
+.navbar-toggler {
+  border-color: white;
+  /* borda branca */
+}
+
+.custom-toggler {
+  border-color: white;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg' %3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22' /%3E%3C/svg%3E");
+}
+
+
 .carousel-item img {
-  height: 600px;          /* mesma altura do container */
-  object-fit: cover;      /* adapta a imagem sem distorcer */
-  object-position: center;/* centraliza verticalmente */
+  height: 600px;
+  /* mesma altura do container */
+  object-fit: cover;
+  /* adapta a imagem sem distorcer */
+  object-position: center;
+  /* centraliza verticalmente */
 }
 
 .App-logo {
@@ -65,6 +83,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

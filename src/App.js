@@ -1,17 +1,18 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import './App.css';
-import Header from './screens/layout/header';
-import Carrosel from './screens/components/carrosel';
-import Cards from './screens/components/cards';
+import Main from "./screens/main";
+import Login from "./screens/login";
 
 function App() {
   return (
-    <div className='container'>
-      <Header />
-      <Carrosel />
-      <Cards />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/*" element={<Main />} />
+        <Route path="/login" element={<Login/>} />
+      </Routes>
+    </Router>
   );
 }
 
