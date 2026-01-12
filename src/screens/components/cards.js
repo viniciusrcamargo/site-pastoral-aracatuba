@@ -3,7 +3,7 @@ export default function Cards() {
     <>
       <h2 className="mt-5 text-center">Como podemos te ajudar</h2>
       <div className="row mt-3 text-center mb-5">
-        <div className="col-sm-4 mb-3 mb-sm-0 ">
+        <div className="col-sm-4 ">
           <div className="card altCard">
             <div className="card-body">
               <h5 className="card-title">Acolhimento e escuta fraterna</h5>
