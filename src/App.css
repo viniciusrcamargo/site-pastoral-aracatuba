@@ -21,12 +21,27 @@
   height: 210px;
 }
 
+.mapaCard {
+  height: 310px;
+}
+
 @media (max-width: 768px) {
   .altCard {
     height: auto;
     margin-bottom: 15px;
   }
 
+  .mapaCard {
+    height: auto;
+    margin-bottom: 15px;
+  }
+}
+
+.mapa{
+  width: 100%;
+  height: 230px;
+  border:0;
+  border-radius: 10px;
 }
 
 /* Deixar o ícone do botão hamburger branco */
@@ -42,6 +57,8 @@
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg' %3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22' /%3E%3C/svg%3E");
 }
+
+
 
 
 .carousel-item img {
