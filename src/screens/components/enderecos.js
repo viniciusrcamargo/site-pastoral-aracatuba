@@ -63,6 +63,7 @@ export default function Enderecos() {
               <h5 className="card-title">Paróquia São José - Castilho</h5>
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3727.995858825848!2d-51.49035272386119!3d-20.87221716834139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9490b711943f65b7%3A0x592c05815cb1f452!2sIgreja%20Matriz%20da%20Par%C3%B3quia%20S%C3%A3o%20Jos%C3%A9!5e0!3m2!1spt-BR!2sbr!4v1768251776735!5m2!1spt-BR!2sbr" width="600" height="450" style={{border:0}} loading="lazy" referrerpolicy="no-referrer-when-downgrade" className="mapa"></iframe>
               <p>Av. Dr. Getúlio Vargas, Nº 746-788</p>
+              <p>Reuniões Todas as Segundas as 20h</p>
             </div>
           </div>
         </div>
