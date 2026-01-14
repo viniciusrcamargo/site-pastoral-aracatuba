@@ -45,7 +45,7 @@ export default function Header() {
                   </a>
                 </li>
                 <li className="nav-item" hidden>
-                  <Link className="nav-link" to="/login">
+                  <Link className="nav-link" >
                     <img src={imgLogin} alt="Logo" width="35" height="35" />
                   </Link>
                 </li>

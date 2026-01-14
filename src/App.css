@@ -22,7 +22,11 @@
 }
 
 .mapaCard {
-  height: 310px;
+  height: 380px;
+}
+
+.mapaCard p{
+  font-size: 18px;
 }
 
 @media (max-width: 768px) {
