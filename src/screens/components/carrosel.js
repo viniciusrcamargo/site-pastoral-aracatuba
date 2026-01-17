@@ -1,5 +1,5 @@
 import Imagem1 from '../../assets/img/slide1.jpg';
-import Imagem2 from '../../assets/img/slide2.jpg';
+import Imagem2 from '../../assets/img/slide2.jpeg';
 import Imagem3 from '../../assets/img/slide3.jpg';
 
 export default function Carrosel() {
