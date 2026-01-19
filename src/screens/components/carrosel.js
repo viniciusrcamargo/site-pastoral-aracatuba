@@ -1,6 +1,7 @@
 import Imagem1 from '../../assets/img/slide1.jpg';
 import Imagem2 from '../../assets/img/slide2.jpeg';
 import Imagem3 from '../../assets/img/slide3.jpg';
+import Imagem4 from '../../assets/img/slide4.jpg';
 
 export default function Carrosel() {
   return (
@@ -14,6 +15,9 @@ export default function Carrosel() {
         </div>
         <div className="carousel-item">
           <img src={Imagem3} className="d-block w-100" alt="..." />
+        </div>
+        <div className="carousel-item">
+          <img src={Imagem4} className="d-block w-100" alt="..." />
         </div>
       </div>
       <button
