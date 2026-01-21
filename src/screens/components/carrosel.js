@@ -3,6 +3,7 @@ import Imagem2 from '../../assets/img/slide2.jpeg';
 import Imagem3 from '../../assets/img/slide3.jpeg';
 import Imagem4 from '../../assets/img/slide4.jpeg';
 import Imagem5 from '../../assets/img/slide5.jpeg';
+import Imagem6 from '../../assets/img/slide6.jpeg';
 
 export default function Carrosel() {
   return (
@@ -22,6 +23,9 @@ export default function Carrosel() {
         </div>
         <div className="carousel-item">
           <img src={Imagem5} className="d-block w-100" alt="..." />
+        </div>
+        <div className="carousel-item">
+          <img src={Imagem6} className="d-block w-100" alt="..." />
         </div>
       </div>
       <button
