@@ -43,6 +43,7 @@ export default function Enderecos() {
               <h5 className="card-title">Paróquia São Brás - Birigui</h5>
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3717.656330622571!2d-50.33150812385051!3d-21.285067181934124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x949614df9a66b0ed%3A0x4512314cab205bfb!2zUGFyw7NxdWlhIFPDo28gQnLDoXMgQmlyaWd1aQ!5e0!3m2!1spt-BR!2sbr!4v1768251454859!5m2!1spt-BR!2sbr" width="600" height="450" style={{border:0}} loading="lazy" referrerpolicy="no-referrer-when-downgrade" className="mapa"></iframe>
               <p>Rua Dr. Carlos Carvalho Rosa, N° 973 - Vila Brasil</p>
+              <p>Reuniões Todas as Segundas as 20h</p>
             </div>
           </div>
         </div>
