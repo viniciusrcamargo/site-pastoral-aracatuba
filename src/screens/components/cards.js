@@ -10,7 +10,7 @@ export default function Cards() {
               <p className="card-text">
                 - A Pastoral da Sobriedade oferece apoio espiritual e humano
                 para pessoas em situação de dependência química e suas famílias.
-                - Espaço seguro para partilha e fortalecimento da fé
+                - Espaço seguro para partilha e fortalecimento
               </p>
               <p className="card-text">
                 - Espaço seguro para partilha e fortalecimento da fé.
