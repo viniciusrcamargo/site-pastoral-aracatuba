@@ -8,7 +8,7 @@ export default function Cards() {
             <div className="card-body">
               <h5 className="card-title">Acolhimento e escuta fraterna</h5>
               <p className="card-text">
-                - A Pastoral da Sobriedade oferece apoio espiritual e humano
+                - A Pastoral da Sobriedade oferece apoio espiritual 
                 para pessoas em situação de dependência química e suas famílias.
               </p>
               <p className="card-text">
