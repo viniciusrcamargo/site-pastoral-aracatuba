@@ -2,7 +2,7 @@ import Logo from "../../assets/img/logo-pastoral.png";
 
 export default function Footer() {
   const hoje = new Date();
-  const dataFormatada = hoje.toLocaleDateString("pt-B", {
+  const dataFormatada = hoje.toLocaleDateString("pt-BR", {
     year: "numeric",
   });
 
