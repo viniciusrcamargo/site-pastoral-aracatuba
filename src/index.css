@@ -1,10 +1,31 @@
+:root {
+  --primary-color: #002b63;
+  --primary-dark: #001938;
+  --primary-gradient: linear-gradient(135deg, #001938 0%, #002b63 60%, #003e8c 100%);
+  --primary-light: #004299;
+  --accent-green: #0d884f;
+  --accent-green-hover: #0a6f40;
+  --accent-gold: #f59e0b;
+  --card-bg: rgba(255, 255, 255, 0.05);
+  --card-bg-hover: rgba(255, 255, 255, 0.08);
+  --card-border: rgba(255, 255, 255, 0.12);
+  --text-primary: #ffffff;
+  --text-muted: #cbd5e1;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+  background-color: var(--primary-dark);
+  background-image: var(--primary-gradient);
+  background-attachment: fixed;
+  color: var(--text-primary);
+  min-height: 100vh;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 code {

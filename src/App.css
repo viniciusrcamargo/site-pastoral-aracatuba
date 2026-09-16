@@ -1,112 +1,440 @@
-.App {
-  text-align: center;
-}
+/* ==========================================================================
+   Pastoral da Sobriedade - Custom Layout & Component Styles
+   ========================================================================== */
 
-* {
-  background-color: rgb(0, 43, 99);
-  color: white;
-
+/* Navbar Glassmorphism */
+.fundonavbar {
+  background: rgba(0, 27, 59, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1040;
+  transition: all 0.3s ease;
 }
 
 .link-menu {
-  color: white;
-  font-size: 20px;
+  color: #f8fafc !important;
+  font-size: 1.05rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem !important;
+  transition: all 0.25s ease;
+  position: relative;
+  cursor: pointer;
 }
 
-.row h5 {
-  color: white;
+.link-menu:hover {
+  color: #60a5fa !important;
 }
 
-.altCard {
-  height: 210px;
+.link-menu::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: #60a5fa;
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
 }
 
-.mapaCard {
-  height: 400px;
+.link-menu:hover::after {
+  width: 70%;
 }
 
-.mapaCard p{
-  font-size: 18px;
-  margin: 0;
+.custom-btn-contact {
+  background-color: var(--accent-green);
+  color: white !important;
+  border-radius: 50px;
+  padding: 0.5rem 1.25rem !important;
+  font-weight: 600;
+  box-shadow: 0 4px 14px rgba(13, 136, 79, 0.35);
+  transition: transform 0.2s ease, background-color 0.2s ease;
 }
 
-@media (max-width: 768px) {
-  .altCard {
-    height: auto;
-    margin-bottom: 15px;
-  }
-
-  .mapaCard {
-    height: auto;
-    margin-bottom: 15px;
-  }
-}
-
-.mapa{
-  width: 100%;
-  height: 230px;
-  border:0;
-  border-radius: 10px;
-}
-
-/* Deixar o ícone do botão hamburger branco */
-.navbar-toggler {
-  border-color: white;
-  /* borda branca */
+.custom-btn-contact:hover {
+  background-color: var(--accent-green-hover);
+  transform: translateY(-2px);
 }
 
 .custom-toggler {
-  border-color: white;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 0.5rem;
+  border-radius: 8px;
 }
 
 .custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg' %3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22' /%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg' %3E%3Cpath stroke='rgba(255,255,255,0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22' /%3E%3C/svg%3E");
 }
 
+/* Header Badge / Logo */
+.logo-img {
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.3));
+  transition: transform 0.3s ease;
+}
 
+.logo-img:hover {
+  transform: scale(1.03);
+}
 
+/* Carousel / Hero Section */
+.hero-carousel-container {
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: 1.5rem;
+}
 
-.carousel-item img {
-  height: 600px;
-  /* mesma altura do container */
+.hero-carousel-item {
+  position: relative;
+  height: 520px;
+}
+
+.hero-carousel-item img {
+  height: 100%;
+  width: 100%;
   object-fit: cover;
-  /* adapta a imagem sem distorcer */
   object-position: center;
-  /* centraliza verticalmente */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top,
+      rgba(0, 25, 56, 0.95) 0%,
+      rgba(0, 25, 56, 0.4) 50%,
+      rgba(0, 0, 0, 0.2) 100%);
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
+  padding: 3rem 2rem;
+}
+
+.hero-title {
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 0.75rem;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.hero-subtitle {
+  font-size: 1.15rem;
+  color: #e2e8f0;
+  max-width: 650px;
+  margin-bottom: 1.5rem;
+}
+
+/* Feature Cards (Como Podemos Te Ajudar) */
+.section-title-badge {
+  display: inline-block;
+  background: rgba(13, 136, 79, 0.15);
+  color: #34d399;
+  border: 1px solid rgba(52, 211, 153, 0.3);
+  padding: 0.35rem 1rem;
+  border-radius: 50px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+}
+
+.section-heading {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+.section-subtext {
+  color: var(--text-muted);
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto 2.5rem auto;
+}
+
+.custom-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 16px;
+  backdrop-filter: blur(8px);
+  padding: 1.75rem 1.5rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.custom-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #0d884f, #60a5fa);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.custom-card:hover {
+  transform: translateY(-6px);
+  background: rgba(255, 255, 255, 0.07);
+  border-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+}
+
+.custom-card:hover::before {
+  opacity: 1;
+}
+
+.card-icon-wrapper {
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  background: rgba(13, 136, 79, 0.15);
+  color: #34d399;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 1.6rem;
+  margin-bottom: 1.25rem;
+}
+
+.custom-card .card-title {
+  color: #ffffff;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 1.3;
+}
+
+.custom-card .card-text {
+  color: #cbd5e1;
+  font-size: 0.975rem;
+  line-height: 1.6;
+  margin-bottom: 0.75rem;
+}
+
+.custom-card .card-text strong {
+  color: #ffffff;
+}
+
+/* Location Cards (Nossos Endereços) */
+.map-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 18px;
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease;
+}
+
+.map-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(96, 165, 250, 0.3);
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.35);
+}
+
+.map-card-header {
+  padding: 1.25rem 1.25rem 0.75rem 1.25rem;
+}
+
+.map-card-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+.map-card-body {
+  padding: 1.25rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mapa-frame {
+  width: 100%;
+  height: 200px;
+  border: 0;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.location-info {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  color: #cbd5e1;
+  font-size: 0.925rem;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+.location-info i {
+  color: #60a5fa;
+  font-size: 1.1rem;
+  margin-top: 2px;
+  flex-shrink: 0;
+}
+
+.meeting-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: rgba(245, 158, 11, 0.15);
+  color: #fbbf24;
+  border: 1px solid rgba(245, 158, 11, 0.3);
+  padding: 0.4rem 0.85rem;
+  border-radius: 50px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  width: fit-content;
+}
+
+/* Floating WhatsApp Button */
+.whatsapp-float-btn {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  width: 60px;
+  height: 60px;
+  background-color: var(--accent-green);
+  color: white !important;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  box-shadow: 0 8px 24px rgba(13, 136, 79, 0.45);
+  z-index: 1050;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.whatsapp-float-btn:hover {
+  background-color: var(--accent-green-hover);
+  transform: scale(1.1) rotate(6deg);
+  box-shadow: 0 12px 28px rgba(13, 136, 79, 0.6);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.whatsapp-pulse {
+  position: absolute;
+  inset: -6px;
+  border-radius: 50%;
+  border: 2px solid var(--accent-green);
+  animation: pulse-ring 2s infinite cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  pointer-events: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.9);
+    opacity: 0.8;
   }
 
-  to {
-    transform: rotate(360deg);
+  50% {
+    transform: scale(1.25);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1.25);
+    opacity: 0;
+  }
+}
+
+/* Modals Override (Ensuring high contrast & clean UI) */
+.modal-content {
+  background-color: #0f172a !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7) !important;
+  color: #ffffff !important;
+}
+
+.modal-header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+  background-color: transparent !important;
+}
+
+.modal-title {
+  color: #ffffff !important;
+  font-weight: 700 !important;
+}
+
+.modal-body {
+  background-color: transparent !important;
+  color: #e2e8f0 !important;
+}
+
+.modal-footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+  background-color: transparent !important;
+}
+
+.btn-close {
+  filter: invert(1) grayscale(100%) brightness(200%);
+}
+
+/* Footer Styling */
+footer {
+  background: transparent;
+  color: #94a3b8;
+  font-size: 0.95rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 2rem 0;
+}
+
+footer a {
+  color: #60a5fa;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Overrides */
+@media (max-width: 768px) {
+  .hero-carousel-item {
+    height: 380px;
+  }
+
+  .hero-title {
+    font-size: 1.6rem;
+  }
+
+  .hero-subtitle {
+    font-size: 0.95rem;
+  }
+
+  .section-heading {
+    font-size: 1.75rem;
+  }
+
+  .mapa-frame {
+    height: 180px;
+  }
+
+  .whatsapp-float-btn {
+    width: 52px;
+    height: 52px;
+    font-size: 28px;
+    bottom: 20px;
+    right: 20px;
   }
 }

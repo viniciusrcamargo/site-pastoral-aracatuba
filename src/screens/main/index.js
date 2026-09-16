@@ -4,14 +4,15 @@ import Cards from "../components/cards";
 import Enderecos from "../components/enderecos";
 import Rodape from "../layout/footer";
 
-
 export default function Main() {
   return (
-    <div className="container">
+    <div className="site-wrapper">
       <Header />
-      <Carrosel />
-      <Cards />
-      <Enderecos />
+      <main className="container pb-5">
+        <Carrosel />
+        <Cards />
+        <Enderecos />
+      </main>
       <Rodape />
     </div>
   );
