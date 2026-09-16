@@ -10,7 +10,7 @@ export default function Footer() {
     <>
       {/* Botão Flutuante de WhatsApp com Pulso */}
       <a
-        href="https://wa.me/5518997274442"
+        href="https://wa.me/5518997274442?text=Olá!%20Seja%20bem%20vindo(a)s%20a%20a%20Pastoral%20da%20Sobriedade.%20Pode%20me%20ajudar%20com..."
         className="whatsapp-float-btn"
         target="_blank"
         rel="noopener noreferrer"
