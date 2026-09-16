@@ -54,6 +54,16 @@ export default function Header() {
                     <i className="bi bi-facebook me-1"></i> Facebook
                   </a>
                 </li>
+                <li className="nav-item">
+                  <a
+                    className="nav-link link-menu"
+                    href="https://www.youtube.com/@Al%C3%B4sobriedade"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="bi bi-youtube me-1 text-danger"></i> YouTube
+                  </a>
+                </li>
                 <li className="nav-item ms-lg-2 mt-2 mt-lg-0">
                   <button
                     type="button"
@@ -120,7 +130,7 @@ export default function Header() {
               </div>
 
               {/* Facebook */}
-              <div className="p-3 rounded-3 bg-dark bg-opacity-50 border border-secondary border-opacity-25 d-flex align-items-center justify-content-between">
+              <div className="p-3 rounded-3 bg-dark bg-opacity-50 border border-secondary border-opacity-25 d-flex align-items-center justify-content-between mb-3">
                 <div>
                   <small className="text-uppercase tracking-wider text-muted d-block fw-semibold" style={{ fontSize: '0.75rem' }}>
                     Facebook Oficial
@@ -134,6 +144,24 @@ export default function Header() {
                   className="btn btn-primary btn-sm px-3 rounded-pill"
                 >
                   <i className="bi bi-facebook me-1"></i> Ir para a Página
+                </a>
+              </div>
+
+              {/* YouTube */}
+              <div className="p-3 rounded-3 bg-dark bg-opacity-50 border border-secondary border-opacity-25 d-flex align-items-center justify-content-between">
+                <div>
+                  <small className="text-uppercase tracking-wider text-muted d-block fw-semibold" style={{ fontSize: '0.75rem' }}>
+                    Canal no YouTube
+                  </small>
+                  <span className="fs-6 fw-bold text-light">@Alôsobriedade</span>
+                </div>
+                <a
+                  href="https://www.youtube.com/@Al%C3%B4sobriedade"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-danger btn-sm px-3 rounded-pill"
+                >
+                  <i className="bi bi-youtube me-1"></i> Acessar Canal
                 </a>
               </div>
             </div>

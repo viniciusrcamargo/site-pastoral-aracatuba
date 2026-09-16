@@ -58,6 +58,15 @@ export default function Footer() {
                 >
                   <i className="bi bi-facebook me-1"></i> Facebook
                 </a>
+                <span className="text-secondary">•</span>
+                <a
+                  href="https://www.youtube.com/@Al%C3%B4sobriedade"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="link-secondary text-decoration-none small text-danger"
+                >
+                  <i className="bi bi-youtube me-1"></i> YouTube
+                </a>
               </div>
               <p className="small mb-0" style={{ color: '#fff' }}>
                 &copy; {dataFormatada} Pastoral da Sobriedade. Todos os direitos reservados.
