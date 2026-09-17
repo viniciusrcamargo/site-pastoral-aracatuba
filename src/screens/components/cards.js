@@ -50,7 +50,7 @@ export default function Cards() {
             </div>
             <h3 className="card-title">Oração</h3>
             <p className="card-text">
-              Leitura da palavra de Deus e orações que juntas são uma base fundamental para o sustendo da sobriedade na vida do dependente.
+              Leitura da palavra de Deus e orações que juntas são uma base fundamental para o sustento da sobriedade na vida do dependente.
             </p>
             <p className="card-text">
               <strong>Todas as reuniões:</strong> São baseadas na palavra de Deus, nos espelhando sempre em Jesus para vivermos a sobriedade.
@@ -63,10 +63,10 @@ export default function Cards() {
       <div className="mt-5 p-4 rounded-4 text-center bg-white bg-opacity-10 border border-white border-opacity-10 shadow-sm">
         <blockquote className="blockquote mb-0">
           <p className="fs-5 italic text-light mb-2">
-            "Sobriedade é a paz da mente, a alegria da alma e o fortalecimento do amor na família."
+            "Me ame quando eu menos merecer, pois é quando eu mais preciso"
           </p>
           <footer className="blockquote-footer text-success fw-semibold mt-1">
-            Pastoral da Sobriedade
+            Provérbio Chinês
           </footer>
         </blockquote>
       </div>

@@ -21,13 +21,13 @@ export default function Enderecos() {
     {
       titulo: "Paróquia São Brás - Birigui",
       endereco: "Rua Dr. Carlos Carvalho Rosa, N° 973 - Vila Brasil, Birigui - SP",
-      reuniao: "Todas as Segundas-feiras às 20h00",
+      reuniao: "Todas as Terças-feiras às 20h00",
       mapaSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3717.656330622571!2d-50.33150812385051!3d-21.285067181934124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x949614df9a66b0ed%3A0x4512314cab205bfb!2zUGFyw7NxdWlhIFPDo28gQnLDoXMgQmlyaWd1aQ!5e0!3m2!1spt-BR!2sbr!4v1768251454859!5m2!1spt-BR!2sbr"
     },
     {
       titulo: "Paróquia Nossa Sra. Auxiliadora - Valparaíso",
       endereco: "Rua Padre Mauro Eduardo, Nº 98, Valparaíso - SP",
-      reuniao: "Reuniões Periódicas (Consulte a Secretaria)",
+      reuniao: "Todas as Segundas-feiras às 20h00",
       mapaSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.2455571160503!2d-50.869086523852246!3d-21.22210907984419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9496e569e0d186f1%3A0x5469c197c8ffa981!2sPar%C3%B3quia%20Nossa%20Senhora%20Auxiliadora!5e0!3m2!1spt-BR!2sbr!4v1768251635939!5m2!1spt-BR!2sbr"
     },
     {
@@ -37,9 +37,9 @@ export default function Enderecos() {
       mapaSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3727.995858825848!2d-51.49035272386119!3d-20.87221716834139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9490b711943f65b7%3A0x592c05815cb1f452!2sIgreja%20Matriz%20da%20Par%C3%B3quia%20S%C3%A3o%20Jos%C3%A9!5e0!3m2!1spt-BR!2sbr!4v1768251776735!5m2!1spt-BR!2sbr"
     },
     {
-      titulo: "Capela São Vicente - Araçatuba",
+      titulo: "Capela São Vicente (Taveira) - Araçatuba",
       endereco: "Rua Dr. Carlos Carvalho Rosa, N° 973 - Vila Brasil, Araçatuba - SP",
-      reuniao: "Reuniões de Apoio e Acolhimento",
+      reuniao: "Todas as Terças-feira às 19h30",
       mapaSrc: "https://www.google.com/maps/embed?pb=!4v1768415043353!6m8!1m7!1s6DvmRVDOGLY6Dhtn9-xbnw!2m2!1d-21.15008413472364!2d-50.50287089127048!3f57.345845555471975!4f6.968771537775723!5f1.0713917813119094"
     }
   ];
@@ -50,7 +50,7 @@ export default function Enderecos() {
         <span className="section-title-badge">Onde Nos Encontrar</span>
         <h2 className="section-heading mt-2">Nossos Grupos e Endereços</h2>
         <p className="section-subtext">
-          Encontre o grupo de apoio da Pastoral da Sobriedade mais próximo de você na região. Todas as reuniões são gratuitas e acolhedoras.
+          Encontre o grupo de apoio da Pastoral da Sobriedade mais próximo de você na região.
         </p>
       </div>
 
