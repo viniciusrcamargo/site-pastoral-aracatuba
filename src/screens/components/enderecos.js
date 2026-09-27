@@ -48,7 +48,7 @@ export default function Enderecos() {
     },
     {
       cidade: "Araçatuba",
-      titulo: "Capela São Vicente aveira) - Araçatuba",
+      titulo: "Capela São Vicente",
       endereco: "Rua Dr. Carlos Carvalho Rosa, N° 973 - Vila Brasil, Araçatuba - SP",
       reuniao: "Todas as Terças-feiras às 19h30",
       mapaSrc: "https://www.google.com/maps/embed?pb=!4v1768415043353!6m8!1m7!1s6DvmRVDOGLY6Dhtn9-xbnw!2m2!1d-21.15008413472364!2d-50.50287089127048!3f57.345845555471975!4f6.968771537775723!5f1.0713917813119094"
