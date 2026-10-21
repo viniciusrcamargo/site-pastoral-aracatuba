@@ -45,6 +45,11 @@ export default function Header() {
                   </a>
                 </li>
                 <li className="nav-item">
+                  <a className="nav-link link-menu" href="https://catalogo-web-pastoral-sb.vercel.app/" target="_blank" rel="noopener noreferrer">
+                    <i className="bi bi-bag me-1" aria-hidden="true"></i> Produtos
+                  </a>
+                </li>
+                <li className="nav-item">
                   <a
                     className="nav-link link-menu"
                     href="https://www.facebook.com/sobriedadearacatuba"
